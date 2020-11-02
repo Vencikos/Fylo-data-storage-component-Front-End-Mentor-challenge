@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace&display=swap');
+
+html {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: #0C122C;
+    width: 1440px; 
+    height: 800px;
+    margin: 0 auto;
+    font-family: "Trispace";
+}
+
+.bg-img {
+    position: absolute;
+    top: 380px;
+}
+
+.main {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 22%;
+}
+
+.container-1 {
+    width: 20%;
+    background-color: #1E2C6A;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    margin-left: 21.5rem;
+}
+
+.container-1-images {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0.5rem 1.5rem 1.7rem;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #121B41;
+    border-radius: 0.5rem;
+    margin: 0.3rem;
+}
+
+.img-div > img {
+    width: 45%;
+    height: auto;
+    margin: auto;
+}
+
+.logo {
+    width: 40%;
+    padding: 2rem 2rem 1rem 2rem;
+}
+
+.container-2 {
+    width: 30%;
+    background-color: #1E2C6A; 
+    border-radius: 0.5rem;
+    margin-right: 21.5rem;
+}
+
+.attribution {
+    position: absolute;
+    top: 750px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.attribution a {
+    color:red;
+    text-decoration: none;
+}
+
+.attribution a:visited {
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: yellow;
+}
+
+.gb-left {
+    background-color: white;
+    color: black;
+    height: 27px;
+    border-radius: 0.5rem;
+    position: absolute;
+    right: 375px;
+    top: 275px;
+    padding: 1rem;
+}
+
+.gb-left::after {
+    content: "";
+    position: relative;
+    top: 35px;
+    right: -106px;
+    border-top: 30px solid white;
+    border-left: 30px solid transparent;
+  }
+
+.gb-left  p {
+    margin: 0;
+    
+}
+
+span {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
